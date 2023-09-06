@@ -1,10 +1,8 @@
 body {
-    background-color: #ed1a3b;
+    background-color: #ed1a3b !important;
     min-height: 100%;
     min-width: 100%;
-}
-h1 {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, sans-serif !important;
 }
 .center {
     display: block;
@@ -21,4 +19,12 @@ h1 {
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 7px;
+}
+.box h1 {
+    padding-top: 5px;
+}
+button {
+    background-color: #4285F4;
+    border-radius: 25px;
 }
