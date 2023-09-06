@@ -4,9 +4,6 @@ body {
     min-width: 100%;
     font-family: 'Segoe UI', Tahoma, sans-serif !important;
 }
-h1 {
-    col
-}
 .center {
     display: block;
     margin-left: auto;
@@ -30,4 +27,8 @@ h1 {
 input {
     background-color: #4285F4;
     border-radius: 25px;
+}
+.info {
+    color: white !important;
+    text-shadow: 2px 2px black;
 }
