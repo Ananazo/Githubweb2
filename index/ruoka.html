@@ -12,24 +12,34 @@
     <title>Student portal</title>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Student portal</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="muut.html">Muut</a></li>
-            <li><a href="foli.html">Bussit</a></li>
-            <li><a href="kaksoistutkinto.html">Kaksoistutkinto</a></li>
-            <li class="active"><a href="#">Ruoka</a></li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Student portal</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Etusivu</a></li>
+          <li><a href="muut.html">Muut</a></li>
+          <li><a href="foli.html">Bussit</a></li>
+          <li><a href="kaksoistutkinto.html">Kaksoistutkinto</a></li>
+          <li class="active"><a href="#">Ruoka</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://edu.turku.fi/ohjeet/salasanojen-vaihtaminen/"><i class="fa-solid fa-key"></i> Vaihda salasana</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div class="center">
         <h1 class="info">Ruoka</h1>
     </div>
-    <iframe style="border-radius: 25px;" width="1280px" height="720px" src="https://safka.online/"></iframe>
+      <iframe id="myFrame" style="border-radius: 25px;" src="https://safka.online/"></iframe>
     </div>
 </body>
 </html>
