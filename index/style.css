@@ -28,10 +28,6 @@ input {
     background-color: #4285F4;
     border-radius: 25px;
 }
-.info {
-    color: white !important;
-    text-shadow: 2px 2px black;
-}
 iframe {
     display: block;
     margin-left: auto;
