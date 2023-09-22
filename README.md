@@ -1,2 +1,2 @@
-# Githubweb2
+# Kukkula studentportal
 Web2 github projekti
